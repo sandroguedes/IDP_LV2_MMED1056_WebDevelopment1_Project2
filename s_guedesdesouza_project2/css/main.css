@@ -1,9 +1,15 @@
+h1
+{
+font-family: "Segoe UI", Arial, Helvetica, Sans-Serif;
+font-size: 40px;
+font-weight: 800;
+}
+
 h2
 {
 font-family: "Segoe UI", Arial, Helvetica, Sans-Serif;
-font-size: 26px;
-font-weight: bold;
-margin-bottom: 25px;
+font-size: 40px;
+font-weight: 700;
 }
 
 p
@@ -21,7 +27,7 @@ text-align: justify;
 hr
 {
 margin-top: 30px;
-margin-bottom: 35px;
+margin-bottom: 70px;
 }
 
 .container
@@ -30,3 +36,141 @@ max-width: 960px;
 margin: 0 auto;
 }
 
+#hero
+{
+width: 100%;
+height: 890px;
+padding:0;
+margin-top:0px;
+margin-right:0px;
+margin-left:0px;
+float:center;
+overflow: hidden;
+background-color:#27382f;
+background-image:url(../images/0PTMZD_stainless-steel-beer-dispenser.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+#top_div
+{
+background-color:#FFC300;
+height:60px;
+}
+
+#title
+{
+margin-top: 400px;
+background-color:rgba(0,0,0, 0.4);
+height: 112px;
+align-content: center;
+}
+
+#title h1
+{
+text-align: center;
+font-size: 100px;
+padding: 0px;
+color:white;
+}
+
+#main_content
+{
+margin-bottom: 100px;
+}
+
+#title_intro
+{
+background-image:url(../images/0PTMZD_Intro.jpg);
+height:150px;
+margin-top:60px;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+#title_intro h2
+{
+color:white;
+padding-top:115px;
+padding-left:10px;
+text-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#title_harpoon
+{
+background-image:url(../images/0PTMZD_Harpoon.jpg);
+height:150px;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+#title_harpoon h2
+{
+color:white;
+padding-top:115px;
+padding-left:10px;
+text-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#title_brewers
+{
+background-image:url(../images/0PTMZD_Brewer.jpg);
+height:150px;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+#title_brewers h2
+{
+color:white;
+padding-top:115px;
+padding-left:10px;
+text-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#title_wolverine
+{
+background-image:url(../images/0PTMZD_Wolverine.jpg);
+height:150px;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+#title_wolverine h2
+{
+color:white;
+padding-top:115px;
+padding-left:10px;
+text-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#title_conclusion
+{
+background-image:url(../images/0PTMZD_Conclusion.jpg);
+height:150px;
+margin-bottom:30px;
+overflow:hidden;
+}
+
+#title_conclusion h2
+{
+color:white;
+padding-top:115px;
+padding-left:10px;
+text-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#footer
+{
+background-color:black;
+height:60px;
+padding:20px;
+}
+
+#footer p
+{
+color:white;
+text-align: center;
+}
